@@ -1,0 +1,124 @@
+body{
+    margin: 20px;
+}
+
+header{
+    display: flex;
+}
+
+form{
+    display: flex;
+    margin: 0;
+}
+
+form.nav-search {
+    margin: 0px 0px 0px 15px;
+}
+
+.search-button{
+    border: none;
+    border-radius: 20px 0 0 20px;
+    background:#D3D3D3;
+
+}
+
+.visual-search{
+    background:#D3D3D3;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.search-input{
+    width: 750px;
+    background:#D3D3D3;
+    border: none;
+}
+
+.right-nav{
+    margin-top: 8px;
+    padding: 0 0 0 15px;
+}
+
+.right-nav a, .login-signup a{
+    text-decoration: none;
+    color: #767676;
+
+}
+
+.login-signup,.right-nav a{
+    padding: 0 0 0 25px;
+
+}
+.login-signup{
+    margin-top: 8px;
+    display: flex;
+}
+
+.right-nav a:hover, .login-signup a:hover, .second-nav a:hover{
+    color: black;
+}
+
+.submit-photo{
+    width: 120px;
+    height: 30px;
+    color: #767676;
+    border-radius: 3px;
+    background: none;
+    border-color: rgba(0,0,0,0.3);
+    border-width: thin;
+    margin: -5px 0px 0px 26px;
+
+}
+
+.right-nav span{
+    color: #fa00ff;
+
+}
+
+.openbtn{
+    font-size: 20px;
+    border: none;
+    background: none;
+    margin: -12px 0px 0px 5px;
+}
+.slash-div{
+    margin: 0px 15px;
+}
+.blank{
+    width: 10px;
+}
+
+
+
+
+
+
+.second-nav{
+    padding: 25px 0px 0px 0px;
+    display: flex;
+
+}
+
+.line{
+    background: #767676;
+    width: 1px;
+}
+
+.second-nav a{
+    padding:10px;
+    color: #767676;
+    text-decoration: none;
+}
+.second-contents button{
+    border: none;
+    background: none;
+    color: #767676;
+
+}
+
+svg.DG_Wq {
+    margin: -4px;
+    
+}
+.submit-photo:hover{
+    border: 2px solid black;
+}
